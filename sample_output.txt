@@ -1,0 +1,23 @@
+CHALLENGE 17 - FILE SYSTEM USING BFS AND DFS
+
+Sample Input:
+5
+Root
+Docs
+Images
+FileA
+FileB
+0 1 1 0 0
+1 0 0 1 0
+1 0 0 0 1
+0 1 0 0 0
+0 0 1 0 0
+0
+FileB
+
+Sample Output:
+BFS Traversal: Root Docs Images FileA FileB
+File 'FileB' found using BFS.
+
+DFS Traversal: Root Docs FileA Images FileB
+File 'FileB' found using DFS.
